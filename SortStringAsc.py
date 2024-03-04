@@ -1,0 +1,5 @@
+string_val = input()
+numbers = list(map(int, string_val.split('+')))
+sorted_numbers = sorted(numbers)
+sorted_string = '+'.join(map(str, sorted_numbers))
+print(sorted_string)
